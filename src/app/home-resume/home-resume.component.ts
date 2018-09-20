@@ -7,6 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeResumeComponent implements OnInit {
 
+
+  skills:string[]=[
+    "C#",
+    "Angular",
+    "Javascript",
+    "Typescript",
+    "CSS",
+    "HTML",
+    "SQL",
+    "MVC",
+    "Entity Framwork",
+    "Python",
+    "Communication Skills",
+    "Scrum Certified",
+    "Easilly Adaptable"
+  ]
+  
+  
   constructor() { }
 
   ngOnInit() {
